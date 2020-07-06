@@ -2,7 +2,7 @@ const {Client, Attachment} = require('discord.js');
 const ytdl = require('ytdl-core');
 const bot = new Client();
 
-const token = 'NzI5MzY2NDkzNjgyNDY2OTQ3.XwILnA.745hdFgPtWgtJQkAHu0Tu9PUyfQ';
+const token = process.env.TOKEN;
 const PREFIX = '*';
 
 var queue_info = [];
